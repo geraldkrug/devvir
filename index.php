@@ -1,7 +1,7 @@
 <?php
 
 // URL for auto login http://geraldkrug.mypressonline.com/cgi/OCR/login.php?username=test&password=test
-//include("upgrade.php");  https://github.com/geraldkrug/app/
+//include("upgrade.php");  https://github.com/geraldkrug/app.git
 $username = stripslashes($_GET['username']);
 
 $password = stripslashes($_GET['password']);

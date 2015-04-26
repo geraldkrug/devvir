@@ -1,6 +1,6 @@
 <?php
 
-// URL for auto login http://geraldkrug.mypressonline.com/cgi/OCR/login.php?username=test&password=test
+// URL for auto login http://php-gkrug.rhcloud.com?username=test&password=test
 //include("upgrade.php");  https://github.com/geraldkrug/app.git
 $username = stripslashes($_GET['username']);
 

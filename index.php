@@ -10,7 +10,8 @@ $password = stripslashes($_GET['password']);
 if ($username == "test") {
 echo success;
 }else{
-exit("No username inputted exiting NOW or use http://php-gkrug.rhcloud.com?username=test&password=test");
+	echo "or use http://php-gkrug.rhcloud.com?username=test&password=test ";
+exit("No username inputted exiting NOW");
 }
 
 ?>

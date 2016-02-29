@@ -10,7 +10,7 @@ $password = stripslashes($_GET['password']);
 if ($username == "test") {
 echo success;
 }else{
-echo "or use API http://perl-gkrug.rhcloud.com?username=test&password=test";
+echo "or use API http://devvir-gkrug.rhcloud.com?username=test&password=test";
 //exit("No username inputted exiting NOW");
 exit;
 }

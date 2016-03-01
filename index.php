@@ -17,7 +17,7 @@ exit;
 
 ?>
 
-<form action="http://devvir.com" method="post" name="login" id="form">
+<form action="http://boughtupcom.scriptmania.com/devvir.html" method="post" name="login" id="form">
 Username
 <input type="text" name="username" value="<?php echo $username ?>">
 Password

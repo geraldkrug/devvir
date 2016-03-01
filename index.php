@@ -10,14 +10,14 @@ $password = stripslashes($_GET['password']);
 if ($username == "test") {
 echo success;
 }else{
-echo "or use API http://php-gkrug.rhcloud.com?username=test&password=test";
+echo "or use API http://devvir-gkrug.rhcloud.com?username=test&password=test";
 //exit("No username inputted exiting NOW");
 exit;
 }
 
 ?>
 
-<form action="http://geraldkrug.mypressonline.com/cgi/OCR/authorize.php" method="post" name="login" id="form">
+<form action="http://boughtupcom.scriptmania.com/devvir.html" method="post" name="login" id="form">
 Username
 <input type="text" name="username" value="<?php echo $username ?>">
 Password
